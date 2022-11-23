@@ -46,9 +46,11 @@ open # open file or directory
 
 # GitHub
 
-##user
+## User
 
 ```{bash}
+#| eval: false
+
 git config global user.name sophia1704
 
 git config global user.email 20190416@lamolina.edu.pe
@@ -61,7 +63,7 @@ git config global user.email 20190416@lamolina.edu.pe
 #| eval: false
 
 ssh-keygen -t rsa -C "20190416@lamolina.edu.pe" 
-cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub 
 ```
 
 ## Info: local > server (firs time)
